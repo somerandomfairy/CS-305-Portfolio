@@ -8,7 +8,7 @@ Some aspects where I’ve done well includes identifying and documenting securit
 Secure coding is important because it plays a critical role in protecting sensitive data, maintaining stakeholder trust, and ensuring industry and regulatory compliance. Software security adds tremendous value to a company’s overall well-being by prevening data breaches, financial losses, and reputation damage. 
 
 # Which part of the vulnerability assessment was challenging or helpful to you?
-One aspect of the vulnerability assessment was refactoring the code to use HTTPS, as I struggled with setting up the keystore and making sure that the IDE was able to locate it. This required a lot of troubleshooting, but eventually, I was successful in the endeavor. 
+One aspect of the vulnerability assessment I found challenging was refactoring the code to use HTTPS, as I struggled with setting up the keystore and making sure that the IDE was able to locate it. This required a lot of troubleshooting, but eventually, I was successful in the endeavor. 
 
 # How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 To increase layers of security, I did the following: Implement checksum verification using SHA-256 to ensure data integrity; Configure the application to use HTTPS for secure communication, and; Conduct static code analysis using OWASP Dependency-Check to identify vulnerabilities. In the future, I would continue to apply the techniques I learned in this course by performing static analysis and functional testing to identify vulnerabilities and adhering to industry best practices to ensure security. 
